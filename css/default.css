@@ -28,13 +28,22 @@ body {
 	z-index: 1;
 }
 
+#navslide {
+	position: absolute;
+	top: -120px;
+	left: 200px;
+	z-index: 4;
+}
+	
+
 #nav {
 	width: 200px;
 	height: 400px;
 	position: fixed;
-	left: 100%;
-	margin-left: -150px;
+	margin-left: 0px;
 	top: 100px;
+	right: -200px;
+	float: right;
 	z-index: 4;
 }
 
@@ -44,12 +53,12 @@ body {
 	position: relative;
 	left: 100%;
 	margin-left: -250px;
-	top: 116px;
+	top: 120px;
 	z-index: 99;
 }
 
 #navbar {
-	width: 150px;
+	width: 200px;
 	height: 400px;
 	background: #F6B874;
 	position: relative;
@@ -57,25 +66,27 @@ body {
 	margin-left: -200px;
 }
 
-
 #nav_type {
 	width: 100px;
 	color: #805649;
 	position: relative;
 	left: 100%;
-	margin-left: -110px;
-	top: 45px;
+	margin-left: -130px;
+	top: 40px;
 	font-family: "Gill Sans", sans serif;
 }
 
 br {
-  margin:1em 0;
   line-height:2em;
 }
 
 a {
 	text-decoration: none;
 	color: #805649;
+}
+
+a:hover {
+	color: white;
 }
 
 h1 {
@@ -103,7 +114,7 @@ p {
 #van_link {
 	position: relative;
 	left: 0px;
-	top: -200px;
+	top: -300px;
 	height: 100px;
 }
 
@@ -119,6 +130,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	top: -100px;
 }
 
 #van_title {
@@ -156,6 +168,13 @@ p {
 	overflow: hidden;
 }
 
+#oreo_link {
+	position: relative;
+	left: 0px;
+	top: -400px;
+	height: 100px;
+}
+
 #cnc_tran {
 	position: relative;
 	left: 0px;
@@ -168,6 +187,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	top: -200px;
 }
 
 #oreo_title {
@@ -195,6 +215,7 @@ p {
 	position: relative;
 	top: -50px;
 }
+
 
 #cookie_start {
 	position: relative;
@@ -271,6 +292,13 @@ p {
 	width: 1430px;
 }
 
+#mint_link {
+	position: relative;
+	left: 0px;
+	top: -500px;
+	height: 100px;
+}
+
 #mint {
 	width: 540px;
 	margin-left: auto;
@@ -311,6 +339,22 @@ p {
 	position: relative;
 	overflow: hidden;
 	background-color: #F3797A;
+}
+
+#straw_start {
+	position: relative;
+	left: 0px;
+	top: 150px;
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+}
+
+#straw_tran {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 1430px;
 }
 
 #straw {
